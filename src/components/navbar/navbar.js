@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css'
 import Contact from '../contactMe/contact';
+import Icon from '../icons/icon';
 
 
 
@@ -22,6 +23,7 @@ const NavBar = () => {
                 </Col>
                 <Col>
                     <a href={<Contact/>}>Hi! How Can I Help You?</a>
+                    <Icon/>
                 </Col>
             </Row>
 
