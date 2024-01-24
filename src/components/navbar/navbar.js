@@ -3,7 +3,6 @@ import { Breadcrumb, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css'
-import Contact from '../contactMe/contact';
 import Icon from '../icons/icon';
 
 
@@ -22,7 +21,7 @@ const NavBar = () => {
                     </Breadcrumb>
                 </Col>
                 <Col>
-                    <a href={<Contact/>}>Hi! How Can I Help You?</a>
+                    <Link to='/form'>Hi! How Can I Help You?</Link>
                     <Icon/>
                 </Col>
             </Row>

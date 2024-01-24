@@ -6,6 +6,7 @@ import Layout from './components/layout/layout';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Projects from './components/projects/projects';
 import Contact from './components/contactMe/contact';
+import FormHelp from './components/form/form';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path='/aboutMe' element={<AboutMe/>} />
             <Route path='/projects' element={<Projects/>} />  
             <Route path='/contactMe' element={<Contact/>} />
+            <Route path='/form' element={<FormHelp/>} />
           </Routes>
         </Layout>
       </Router>
