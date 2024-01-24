@@ -9,7 +9,7 @@ const divStyle = {
 const FormHelp = () => {
     return (
         <div className='form' style={{ ...divStyle }}>
-            <Form>
+            <Form style={{fontFamily: 'Apple Chancery , cursive',}}>
                 <Form.Group className="mb-3" controlId="formEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" />
