@@ -6,7 +6,8 @@ const divStyle={
    width: '800px',
    height: '50px', 
    marginTop: '20px',
-   marginLeft: '50px',
+   marginLeft: 'auto',
+   marginRight: 'auto',
    marginBottom: '20px',
    paddingTop:'10px',
    
